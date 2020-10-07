@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="number1">
+<input type="text" id="number2">
+<input type="button" onclick="addTwoNumber()" value="Add(+)">
+<input type="button" onclick="subTwoNumber()" value="Sub (-)">
+<input type="button" onclick="multiTwoNumber()" value="Mult (*)">
+<input type="button" onclick="divTwoNumber()" value="Div (/)">
+<input id="result">
+<script>
+    //ĐỪng bao giờ .value cho biến toàn cục.
+
+    function addTwoNumber() {
+
+        let result = parseInt(number1.value) +  parseInt(number2.value);
+        document.getElementById("result").value= result;
+
+
+    }
+    function multiTwoNumber() {
+        let result = (number1.value) *  (number2.value);
+        document.getElementById("result").value = result;
+    }
+    function subTwoNumber() {
+        let result = (number1.value) -  (number2.value) ;
+        document.getElementById("result").value = result;
+
+    }
+    function divTwoNumber()
+
+        {
+       let result = (number1.value) / (number2.value);
+            document.getElementById("result").value = result;
+
+
+
+
+
+
+    }
+    //3 cách để đẩy từ JS->HTML
+    // Nếu là thẻ hiển thị văn bản ta có 2 cách là dùng innerText hoặc innerHTML
+    //Nếu là thẻ nhập input, select, textarea thì dùng .value
+</script>
+</body>
+</html>
+
+
+</body>
+</html>
