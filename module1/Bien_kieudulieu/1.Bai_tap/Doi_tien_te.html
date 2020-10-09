@@ -5,28 +5,64 @@
     <title>đổi tiền tệ</title>
 </head>
 <body>
-<input type="text ">
-<select id="convert1">
+<input type="text" id="st">
+<select id="from">
     <option>VND</option>
     <option>USD</option>
     <option>GBP</option>
 
+
 </select>
- <select id="convert">
+ <select id="to">
      <option>USD</option>
      <option>VND</option>
      <option>GBP</option>
+
 
  </select>
 
 
 <input type="button" onclick="convertmonney()" value="chuyển tiền">
+<span id="kq"></span>
  <script>
      function convertmonney() {
-         let number1= document.getElementById("number1").value;
-         let number2= document.getElementById("number2").value;
 
+         let st = document.getElementById("st").value;
+         let from = document.getElementById("from").value;
+         let to = document.getElementById("to").value;
+         let kq = document.getElementById("kq")
+         if(from ==="VND") {
+             if(to ==="USD") {
+                 kq.innerText = st/23000;
+             } else if(to ==="GBP") {
+                  kq.innerText = st/27000;
+             } else {
+                 kq.innerText=("mời bạn nhập tiền")
+             }
+         }
+         else if(from ==="USD") {
+             if(to ==="VND") {
+                 kq.innerText=st*23000;
+             } else if(to ==="GBP") {
+                 kq.innerText=st*0.8;
+             } else {
+                 kq.innerText=("mời bạn nhập tiền")
+             }
+         }
+         else if(from ==="GBP") {
+             if(to ==="USD") {
+                 kq.innerText=st/0.8;
+             } else if(to ==="VND") {
+                 kq.innerText=st*27000;
+             } else {
+                 kq.innerText=("mời bạn nhập tiền")
+             }
+         }
      }
+
+
+
+
  </script>
 
 </body>

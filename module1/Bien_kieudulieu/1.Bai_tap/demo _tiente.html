@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Amount</th>
+        <th>FromCurrent</th>
+        <th>ToCurrent</th>
+    </tr>
+    <tr>
+        <td><input id="amount"></td>
+        <td><select id="from">
+            <option>USD</option>
+            <option>VND</option>
+            <option>Euro</option>
+        </select></td>
+        <td><select id="to">
+            <option>USD</option>
+            <option>VND</option>
+            <option>Euro</option>
+        </select></td>
+        <td><button type="button" onclick="convert()">Convert</button> </td>
+    </tr>
+</table>
+<p id="result"></p>
+<script>
+    function convert() {
+        let amount=document.getElementById("amount").value;
+        let fromCurrent=document.getElementById("from").value;
+        let toCurrent=document.getElementById("to").value;
+        let result =document.getElementById("result")
+        if(fromCurrent ==="VND") {
+            if(toCurrent ==="USD") {
+                result.innerText = amount/23000;
+            } else if(toCurrent ==="Euro") {
+                alert(amount/27000)
+            } else {
+                alert("mời bạn nhập tiền")
+            }
+        }
+        else if(fromCurrent ==="USD") {
+            if(toCurrent ==="VND") {
+                alert(amount*23000)
+            } else if(toCurrent ==="Euro") {
+                alert(amount*0.8)
+            } else {
+                alert("mời bạn nhập tiền")
+            }
+        }
+        else if(fromCurrent ==="Euro") {
+            if(toCurrent ==="USD") {
+                alert(amount/0.8)
+            } else if(toCurrent ==="VND") {
+                alert(amount*27000)
+            } else {
+                alert("mời bạn nhập tiền")
+            }
+        }
+    }
+</script>
+</body>
+</html>
+
+</body>
+</html>
