@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<input type="text" id="a">
+<input type="text" id="b">
+<input type="text" id="c">
+
+<input type="button" onclick="kiemtra()" value="kiểm tra ">
+
+<p id="kq"></p>
+
+<script>
+    function kiemtra() {
+            let a= parseInt(document.getElementById("a").value);
+            let b= parseInt(document.getElementById("b").value);
+            let c= parseInt(document.getElementById("c").value);
+
+            let maxx;
+        if ((a > b) && (a > c)) {
+            maxx = a;
+        } else {
+            if ((b > c) && (b > a))
+                maxx = b;
+            else {
+
+                maxx = c;
+            }
+
+        }
+        kq.innerText=("so lon nhat la " + maxx + "")
+
+
+    }
+
+
+</script>
+
+
+</body>
+</html>

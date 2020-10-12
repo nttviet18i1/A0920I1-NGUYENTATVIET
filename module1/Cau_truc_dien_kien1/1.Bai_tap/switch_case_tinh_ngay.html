@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tính số ngày trong tháng</title>
+</head>
+<body>
+<input type="text" id="mon">
+<input type="button" onclick="songay()" value="số ngày của tháng">
+<p id="kq"></p>
+<script>
+ function songay() {
+     let mon = parseInt(document.getElementById("mon").value);
+     let kq =document.getElementById("kq");
+
+     switch (mon) {
+         case 1:
+           kq.innerText=  "tháng 1" +"có"+""+31 + " "+""+"ngày";
+             break;
+         case 2:
+             kq.innerText=  28 + "ngày" + "," + 29 + "ngày";
+             break;
+         case 3:
+             kq.innerText=  31 + ""+"ngày";
+             break;
+         case 4:
+             kq.innerText=  30 + ""+"ngày";
+             break;
+         case 5:
+             kq.innerText=  31 + ""+"ngày";
+             break;
+         case 6:
+             kq.innerText=  30 + ""+"ngày";
+         case 7:
+             kq.innerText=  31 + ""+"ngày";
+             break;
+         case 8:
+             kq.innerText=  31 + ""+"ngày";
+             break;
+         case 9:
+             kq.innerText=  30 + ""+"ngày";
+             break
+         case 10:
+             kq.innerText=  31 + ""+"ngày";
+             break;
+         case 11:
+             kq.innerText=  30 + ""+"ngày";
+             break;
+         case 12:
+             kq.innerText=  31 + ""+"ngày";
+             break;
+             default:
+                 kq.innerText=  "số thánh bạn nhập không hợp lệ@@"
+
+
+     }
+ }
+</script>
+</body>
+</html>

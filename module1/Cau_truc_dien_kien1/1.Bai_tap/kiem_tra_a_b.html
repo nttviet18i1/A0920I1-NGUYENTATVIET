@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra a và b</title>
+</head>
+<body>
+<input type="text" id="numbera">
+<input type="text" id="numberb">
+<input type="button" onclick="kiemtra()" value="kiểm tra ">
+
+<p id="kq"></p>
+<script>;
+
+function kiemtra(){
+let numbera=parseInt( document.getElementById("numbera").value);
+let numberb= parseInt(document.getElementById("numberb").value);
+    if(numbera%numberb===0){
+        kq.innerText="a chia hết cho b"
+
+    }
+    else {
+        kq.innerText="a khong chia hết cho b"
+    }
+}
+
+</script>
+
+</body>
+</html>

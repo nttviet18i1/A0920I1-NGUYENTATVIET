@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>kiểm tra số lớn hơn 0</title>
+</head>
+<body>
+<input type="text" id="num">
+
+<input type="button" onclick="kiemTra()" value="kiểm tra ">
+<p id="kq"></p>
+<script>
+    function kiemTra() {
+        let num = parseInt(document.getElementById("num"));
+        if (num < 0) {
+            kq.innerText = "số bạn vừa nhập lớn hơn zero "
+        } else {
+            kq.innerText = "số bạn vừa nhập nhỏ hơn zero "
+        }
+    }
+</script>
+
+</body>
+</html>
