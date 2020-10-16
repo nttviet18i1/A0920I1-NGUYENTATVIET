@@ -12,20 +12,18 @@
     let denta=parseInt( b*b-4*a*c);
     let x1;
     let x2;
-    if (denta===0) {
-        x1=-b/(2*a) ;
-        x2=-b/(2*a);
-      alert("pt co nghiem kep la:"+x1);}
-    else {
-        if (denta<0)
+     if (denta<0) {
             alert("pt vô nghiệm")
+        }
+   else  if (denta===0) {
+
+        alert("pt co nghiem kep la:"+ -b/2*a);}
+
         else {
             x1=(-b-Math.sqrt(denta))/(2*a);
             x2=(-b+Math.sqrt(denta))/(2*a);
 
             alert("pt có 2 nghiệm là x1="+x1+"va x2="+x2)
-        }
-
     }
 
 

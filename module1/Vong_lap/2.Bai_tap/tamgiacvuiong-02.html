@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let N=parseInt(prompt('nhap N'));
+
+
+    for(let i=1; i<=N; i++)
+    {
+        for(let k=1; k<=N; k++)
+        {
+            if(k<=N-i)
+                document.writeln("  ");
+            else
+              document.writeln("*");
+        }
+        document.writeln("<br>");
+    }
+</script>
+
+</body>
+</html>
