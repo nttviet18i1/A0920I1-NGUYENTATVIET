@@ -6,22 +6,22 @@
 </head>
 <body>
 <script>
-    let n= parseInt(prompt("nhập vào dài"))
-    let m= parseInt(prompt("nhập vào rong"))
-    //quy luat vẽ hình
+    let n=5
+
+    let m= 6
 
     //mỗi i là 1 dòng
-    for (let i =1; i <n; i++) {
+    for (let i =1; i < n; i++) {
         //in ra dấu sao
         for (let j = 1; j <= m; j++) {
-            if (i ===1||i===n-1||j===1||j===m) {
+            if (i ===1||i===n-1||j===1||j===m-1) {
 
 
                 document.write("* ");
             }
             else {
 
-                document.writeln(" ");
+                document.writeln("&nbsp&nbsp&nbsp");
             }
         }
         document.writeln("<br>")

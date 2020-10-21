@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="">
+ chiều cao:   <input type="text" id="height">
+    <select name="" id="m">
+        <option>metcenter</option>
+    </select>
+   cân nặng <input type="text" id="weight">
+    <select name="" id="kg">
+        <option>kilogam</option>
+    </select>
+    <input type="button" value="change" onclick="check()">
+    <h1>chỉ số IBM của bạn là: <span id="reult">?</span></h1>
+    <p id="ht"></p>
+</form>
+<script>
+    function check() {
+       let height=Number(document.getElementById("height").value);
+
+      let weight=Number(document.getElementById("weight").value);
+        bmi = weight / ( height ^ 2 )
+        document.getElementById("reult").innerText=Math.round(bmi*100)/100;
+
+
+
+        if (bmi < 18)
+           ht.innerText="Underweight";
+        else if (bmi < 25.0)
+            ht.innerText="Normal";
+        else if (bmi < 30.0)
+            ht.innerText="Overweight";
+        else
+            ht.innerText="Obese";
+
+    }
+
+</script>
+
+</body>
+</html>
