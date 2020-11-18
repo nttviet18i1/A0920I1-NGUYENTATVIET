@@ -2,9 +2,39 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<input type="text" id="num">
+<input type="button" onclick="check()" value="check">
+<p id="kt"></p>
+
+<script>
+    function check() {
+
+        let num=  document.getElementById("num").value
+        if(num<2){
+           kt.innerText="không phải số nguyên tố"
+            return 0;
+
+        }
+        let count=0;
+        for(let i = 2; i <= Math.sqrt(num); i++){
+            if(num % i == 0){
+                count++;
+            }
+        }
+        if(count===0){
+            kt.innerText=" số nguyên tố"
+
+        }else {
+            kt.innerText="không phải số nguyên tố"
+        }
+
+
+    }
+    check(6)
+</script>
+
 </body>
 </html>

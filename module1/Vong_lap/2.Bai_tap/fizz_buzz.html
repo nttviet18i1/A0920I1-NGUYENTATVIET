@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="text" id="check">
+<button onclick="kq()">kiểm tra</button>
+<p id="txt"></p>
+<script>
+    function kq() {
+        let n = document.getElementById("check").value;
+        for (let i = 0; i <= n; i++) {
+            if (n % 3 === 0) {
+                txt.innerText=("so nay chia het cho 3 =>FIZZ")
+            } if(n%5==0) {
+                txt.innerText=("so nay khong  chia het cho 5=>Buzz")
+            }
+        }
+    }
+</script>
+
+</body>
+</html>

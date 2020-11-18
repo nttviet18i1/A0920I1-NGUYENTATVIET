@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Temperature</title>
+</head>
+<body>
+<script>
+    class Temperature{
+
+        constructor(c) {
+            this.c=c;
+        }
+        swapf(){
+            return this.c*1.800+32;
+        }
+        swapkevin(){
+            return this.c+273.15
+        }
+    }
+
+
+    let C= new Temperature(10)
+    document.write("Độ c sang độ f là"+"  "+C.swapf())
+
+    document.writeln("do c sang kenvin la"+C.swapkevin())
+</script>
+
+</body>
+</html>

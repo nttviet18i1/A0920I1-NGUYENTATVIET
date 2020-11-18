@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class MyDate{
+        constructor (day ,mon,year) {
+            this.day= day;
+            this.mon= mon;
+            this.year= year;
+        }
+        hienThi() {
+            return this.day+"/"+this.mon+"/"+this.year;
+        }
+    }
+    let date=new MyDate(21,1,2000)
+    alert(date.hienThi())
+
+
+
+</script>
+
+</body>
+</html>

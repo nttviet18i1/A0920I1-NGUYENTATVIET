@@ -1,0 +1,53 @@
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<script>
+    let nameProduct = ["Sony", "Nokia", "SamSung",];
+    function displayproduct() {
+        document.body.innerHTML=""
+      let temp = "<input type='text' id='product'> <button onclick='addproduct()'>Add</button>";
+      temp+="<table>"
+
+        for (let i = 0; i < nameProduct.length; i++) {
+
+            temp += "<tr>"
+            temp += "<td>" + nameProduct[i] + "<td>"
+            temp += "<td><Button onclick='edit_product("+i+")'>Edit</Button></td>"
+            temp += "<td><Button onclick='delete_product("+i+")'>Delete</Button><td>"
+            temp += "</tr>"
+        }
+        temp += "</table>"
+        document.write(temp)
+    }
+    function addproduct(){
+        let product= document.getElementById('product').value;
+        nameProduct.push(product);
+        console.log(nameProduct);
+        displayproduct()
+
+    }
+   function delete_product(index){
+       if (confirm("bạn có muốn xóa sản phẩm " + nameProduct[index] + " này không?")) {
+           nameProduct.splice(index, 1);
+           displayproduct();
+       }
+    }
+    function edit_product(index) {
+        let name= prompt("nhập tên product edit"+nameProduct[index])
+        nameProduct[index] = name;
+        displayproduct();
+
+
+    }
+    displayproduct();
+
+
+
+</script>
+</body>
+</html>

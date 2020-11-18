@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LAMP</title>
+</head>
+<body>
+<img src="" id="myImage">
+<input type="button" value="công tất" id="control" onclick="controlLamp()">
+<script>
+    class ElectricLamp {
+        constructor() {
+            document.getElementById("myImage").src = "../../image/1.jpg";
+        }
+
+        turnOn() {
+            document.getElementById("myImage").src = "../../image/2.jpg";
+
+        }
+
+        turnOff() {
+            document.getElementById("myImage").src = "../../image/1.jpg";
+        }
+
+    }
+
+    class SwitchButton {
+        constructor(status, lamp) {
+            this.status = status;
+            this.lamp = lamp;
+        }
+
+        connectToLamp(lamp) {
+            this.lamp = lamp;
+        }
+
+        switchOn() {
+            this.lamp.turnOn()
+            this.status = true
+
+        }
+
+        switchOff() {
+            this.lamp.turnOff()
+            this.status = false
+        }
+
+    }
+
+    let lamp = new ElectricLamp()
+    let Button = new SwitchButton(false, lamp)
+
+    function controlLamp() {
+        if (Button.status) {
+            Button.switchOff()
+        } else {
+            Button.switchOn()
+        }
+
+    }
+</script>
+</body>
+</html>

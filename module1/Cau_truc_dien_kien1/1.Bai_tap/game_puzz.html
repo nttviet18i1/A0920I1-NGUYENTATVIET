@@ -17,12 +17,12 @@
     let imageD = document.getElementById("carD");
     let imageE = document.getElementById("carE");
     function changeImageA() {
-        if(imageA.getAttribute("src") ==="Images/Hinh 1a.png") {
-            imageA.src = "Images/Hinh 2a.png";
-        } else if(imageA.getAttribute("src") ==="Images/Hinh 2a.png") {
-            imageA.src = "Images/Hinh 3a.png";
+        if(imageA.getAttribute("src") === "../../image/funnycat 1.jpg") {
+            imageA.src = "../../image/funnycat 1.jpg";
+        } else if(imageA.getAttribute("src") ==="../../image/monkey1.jpg") {
+            imageA.src = "../../image/monkey1.jpg";
         } else {
-            imageA.src = "Images/Hinh 1a.png";
+            imageA.src = "../../image/panda1.jpg";
         }
         check();
     }
@@ -37,10 +37,10 @@
         check();
     }
     function check() {
-        if(imageA.getAttribute("src")==="Images/Hinh 1a.png"&&imageB.getAttribute("src")==="Images/Hinh 1b.png") {
+        if(imageA.getAttribute("src")==="../../image/monkey1.jpg\""&&imageB.getAttribute("src")==="Images/Hinh 1b.png") {
             document.getElementById("a").style.border= "thick solid blue"
         }
     }
-</script>
+    </script>
 </body>
 </html>

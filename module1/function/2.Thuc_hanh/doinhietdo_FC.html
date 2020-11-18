@@ -8,8 +8,8 @@
 <input type="text" id="bit">
 <input type="text"id="result">
 <select name="" id="temp">
-    <option value="feet">feet</option>
-    <option value="meter">meter</option>
+    <option value="F">F</option>
+    <option value="C">C</option>
 </select>
 <input type="button" onclick="swap()" value="chuyển">
 <script>
@@ -17,11 +17,11 @@
         let bit= document.getElementById("bit").value;
         let temp= document.getElementById("temp").value;
         let total;
-        if (document.getElementById("temp").value === "feet")
-            total = 3.279*bit;
-        else if (document.getElementById("temp").value === "meter")
-            total = 0.305*bit;
-        document.getElementById("result").value = ("đơn vị :"+total);
+        if (document.getElementById("temp").value === "F")
+            total = (bit-32)/1.8;
+        else if (document.getElementById("temp").value === "C")
+            total = (bit*1.8)+32;
+        document.getElementById("result").value = ("đơn vị :"+totalUYU);
 
 
     }

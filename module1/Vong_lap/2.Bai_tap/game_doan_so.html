@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form>
+    <input type="text" id="numbers">
+    <br>
+    <input type="reset" value="chơi lại">
+    <input type="button"onclick="play()" value="chơi">
+    <p id=" result"></p>
+</form>
+<script>
+    function play() {
+
+        let n= parseInt(document.getElementById("numbers").value);
+        let b =Math.round(10*Math.random());
+        if(n===b){
+           alert("chúc mừng bạn đã đoán"+b+" đúng");
+            return n;
+
+        } else  if (n >b){
+           alert("số bạn đoán" +b+"đã lớn hơn rồi! ");
+
+        }
+        else {
+         alert("số bạn đoán"+""+b+" nhỏ hơn rồi !");
+
+        }
+
+
+    }
+</script>
+
+</body>
+</html>

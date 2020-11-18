@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TV</title>
+</head>
+<body>
+<script>
+    class Television{
+        constructor(codeRemote) {
+            this.TVProgram= 1;
+            this.codeRemote= codeRemote;
+            this.Volume= 20;
+            this.isOn=false;
+        }
+
+        TurnTV(){
+            if (this.isOn) {
+                this.isOn = false;
+                console.log("turn off the tv");
+            } else {
+                this.isOn = true;
+                console.log("turn on the tv");
+            }
+        }
+        adjustVolume(number){
+         if(this.isOn){
+             number = Number(number);
+             this.Volume += number;
+             console.log("âm lượng: " + this.Volume);
+         }
+         else {
+             console.log("tv đang tắt !");
+         }
+
+         }
+        adjustTVProgram(number){
+            if(this.isOn){
+                number = Number(number);
+                this.TVProgram= number;
+                console.log("TV chuyển sang kênh: " + this.TVProgram);
+            }
+            else {
+                console.log("tv đang tắt !");
+            }
+
+        }
+    }
+    class Remote {
+        constructor(codeRemote) {
+            this.codeRemote = codeRemote;
+        }
+
+        turnVolume(tv, number) {
+            if (tv.codeRemote == this.codeRemote) {
+                tv.adjustVolume(number);
+            }
+        }
+
+        turnTVProgram(tv, number) {
+            if (this.codeRemote == tv.codeRemote) {
+                tv.adjustTVProgram(number);
+            }
+        }
+
+        turnTVOff(tv) {
+            if (this.codeRemote === tv.codeRemote) {
+                tv.TurnTV();
+            }
+        }
+    }
+    let samsung=new Television(2020);
+    console.log(samsung);
+    samsung.TurnTV();
+    samsung.adjustTVProgram(7);
+    let remoteSamsung=new Remote(2020)
+    remoteSamsung.turnTVProgram(samsung,3);
+   remoteSamsung.turnVolume(samsung,2)
+    remoteSamsung.turnTVOff(123);
+</script>
+
+</body>
+</html>
