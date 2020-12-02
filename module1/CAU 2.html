@@ -2,9 +2,33 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>CÂU 2</title>
 </head>
 <body>
-$END$
+<script>
+    class SOSANH{
+        constructor(tuso,mauso) {
+            this.tuso= tuso;
+            this.mauso=mauso;
+        }
+        toigian(){
+           return  this.tuso/this.mauso;
+        }
+    }
+    function kiemtra() {
+        let a1= new SOSANH(1,2);
+        let a2=new SOSANH(2,4);
+        let a3= new SOSANH(2,3)
+        if(a1.toigian()==a2.toigian()){
+            alert("true")
+        }else {
+            alert("false")
+        }
+    }
+    kiemtra()
+
+
+</script>
+
 </body>
 </html>

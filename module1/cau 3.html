@@ -2,9 +2,78 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>3</title>
 </head>
 <body>
-$END$
+<script>
+    class SOTIETKIEM{
+        constructor(maSo,loaiTK,name,cmnd,day,money) {
+            this.maSo= maSo;
+            this.loaiTK=loaiTK;
+            this.name=name;
+            this.cmnd= cmnd;
+            this.day=day;
+            this.money=money;
+        }
+
+    }
+    let listSOTIETKIEM=[];
+    listSOTIETKIEM.push(new SOTIETKIEM("23456","BHXH","Nguyễn Văn A","2045678","11/25/2020","20000000"));
+  function  displaySOTIETKIEM(){
+          document.body.innerHTML="";
+          let temp ="<table border='1'>";
+          temp+="<tr>";
+          temp+="<th width='100px'>Ma So:</th>";
+          temp+="<th width='100px'>Loai Tiet Kiem:</th>";
+          temp+="<th width='100px'>Ten Khach Hang:</th>";
+          temp+="<th width='100px'>CMND:</th>";
+          temp+="<th width='100px'>Ngay Gui:</th>";
+             temp+="<th width='100px'>So Tien Gui:</th>";
+          temp+="</tr>";
+          for(let i= 0;i<listSOTIETKIEM.length;i++){
+              temp+="<tr>";
+              temp+="<td>"+listSOTIETKIEM[i].maSo+"</td>";
+              temp+="<td>"+listSOTIETKIEM[i].loaiTK+"</td>";
+              temp+="<td>"+listSOTIETKIEM[i].name+"</td>";
+              temp+="<td>"+listSOTIETKIEM[i].cmnd+"</td>";
+              temp+="<td>"+listSOTIETKIEM[i].day+"</td>";
+              temp+="<td>"+listSOTIETKIEM[i].money+"</td>";
+              temp+="<td><button onclick='deleteSOTIETKIEM("+i+")'>Delete</button></td>";
+              temp+="</tr>";
+          }
+          temp+="</table>";
+          temp+="<button onclick='addService()'>Add Service</button>"
+          document.writeln(temp);}
+    function addService() {
+        document.body.innerHTML="";
+        let temp = "Ma So: <input type='text' id='ms'><br>";
+        temp+="Loai Tiet Kiem: <input type='text' id='ltk'><br>";
+        temp+="Ten Khach Hang: <input type='text' id='name'><br>";
+        temp+="CMND: <input type='text' id='code'><br>";
+        temp+="Ngay Gui: <input type='date' id='day'><br>";
+        temp+="So Tien Gui: <input type='text' id='money'><br>";
+
+        temp+="<button onclick='successSOTIETKIEM()'>Add Service</button>"
+        document.writeln(temp);
+    }
+    function successSOTIETKIEM() {
+        let maSo = document.getElementById("ms").value;
+        let loaiTK = document.getElementById("ltk").value;
+        let name = document.getElementById("name").value;
+        let cmnd = document.getElementById("code").value;
+        let day = document.getElementById("day").value;
+        let money = document.getElementById("money").value;
+        listSOTIETKIEM.push(new SOTIETKIEM(maSo,loaiTK,name,cmnd,day,money));
+        displaySOTIETKIEM();
+    }
+      function deleteSOTIETKIEM(i) {
+          if(confirm("bạn có muốn xóa "+listSOTIETKIEM[i].name+" này hay không?")) {
+              listSOTIETKIEM.splice(i,1);
+              displaySOTIETKIEM();
+          }
+    }
+    displaySOTIETKIEM()
+</script>
+
 </body>
 </html>
