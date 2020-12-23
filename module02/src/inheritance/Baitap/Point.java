@@ -1,8 +1,8 @@
 package inheritance.Baitap;
 
 public class Point {
-    protected float x;
-   protected float y;
+ protected float x;
+  protected float y;
 
     public Point() {
         this.x = 0.0f;

@@ -2,7 +2,7 @@ package inheritance.Baitap;
 
 public class Piont2D {
     protected  float y;
-    float x;
+    protected  float x;
 
 
     public Piont2D() {

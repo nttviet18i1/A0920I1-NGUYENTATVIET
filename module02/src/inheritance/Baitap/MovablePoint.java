@@ -49,29 +49,25 @@ public class MovablePoint extends Point {
     @Override
     public String toString() {
         return
-                "MovablePoint{" +
-                getSpeed()[0]+", "+getSpeed()[1]
-                ;
+                "MovablePoint{"
+                +getxSpeed()+", "+getySpeed()+"}"+"\n"
+                +"MovablePoint da thay doi"+"{"+getX()+", "+getY()+"}";
 
     }
 
-    public void move (float xSpeed ,float ySpeed) {
-        x += xSpeed;
-        y += ySpeed;
-
-
-
+    public MovablePoint move() {
+        this.x += this.xSpeed;
+        this.y += this.ySpeed;
+        return this;
     }
 
 
     public static void main(String[] args) {
-        Point A1= new Point(2,5);
-        System.out.println(A1);
-        MovablePoint A = new MovablePoint();
-        System.out.println(A);
-        MovablePoint B = new MovablePoint(2,8);
-        System.out.println(B);
-        B.move(5,6);
+        MovablePoint b = new MovablePoint(5,5,2, 6);
+        b.move();
+        System.out.println(b);
+
+
 
     }
 }
