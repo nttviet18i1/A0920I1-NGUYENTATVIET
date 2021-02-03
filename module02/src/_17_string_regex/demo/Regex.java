@@ -1,4 +1,4 @@
-package _17_string_regex;
+package _17_string_regex.demo;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;

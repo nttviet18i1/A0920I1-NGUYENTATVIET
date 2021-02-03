@@ -1,4 +1,4 @@
-package _17_string_regex;
+package _17_string_regex.demo;
 
 public class MyString {
     public static void main(String[] args) {
