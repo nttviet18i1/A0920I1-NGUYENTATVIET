@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>layout</title>
+	<style type="text/css">
+		body {
+ 		 font-family: sans-serif;
+  		color: #333;
+			}
+		.navbar{grid-area: nav;
+		
+		grid-column-start: 1;
+		grid-column-end: 7; 
+		display:  inline;
+		background:  aqua;
+		}
+		a:hover{
+			color: black;
+		}
+		a
+		{
+			text-decoration: none;
+  			color: #fff;
+ 		
+		}
+		 ul,li{
+		 	font-size: 30px;
+		 	display:  inline;
+		 	margin-right: 20px;
+
+		
+		
+
+		 }
+		 .sesion{grid-area: sesion}
+		.left{ grid-area: left }
+		.content{grid-area: content}
+		.right{grid-area: right}
+		.footer{grid-area: footer;
+		 background: black;
+		 grid-column-start: 1;
+		grid-column-end: 7; 
+		color: white;
+		font-size: 30px;
+		}
+		
+		.main {
+            display: grid;
+            grid-template-areas:
+                'nav nav nav nav nav'
+                'left content content content right'
+                'footer footer footer footer footer'
+                
+              
+
+        }
+	</style>
+</head>
+<body>
+	<div class="main">
+	<div class="navbar">
+		<ul>
+			<li><a href="#">LOGO</a></li>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Login</a></li>
+			
+		</ul>
+		
+        
+      </div>
+      <div id="sesion">
+      <div class=" left">LEFT</div>
+      <div class="content">CONTENT</div>
+      <div class="right">RIGHT</div>
+      <div class="footer">FOOTER</div>
+  </div>
+</div>
+
+
+</body>
+</html>

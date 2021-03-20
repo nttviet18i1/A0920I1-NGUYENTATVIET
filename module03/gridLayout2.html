@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .container > div {
+    
+         background-color: aqua;
+            border: 1px solid #fff;
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .container {
+            display: grid;
+            grid-template-areas:
+                'header header header header header header'
+                'nav nav nav nav nav nav'
+                'left content content content content right'
+                'left footer footer footer footer footer';
+
+        }
+        .item1 {grid-area: header}
+        .item2 {grid-area: nav}
+        .item3 {grid-area: left}
+        .item4 {grid-area: content}
+        .item5 {grid-area: right}
+        .item6 {grid-area: footer}
+        .item1{
+            color: red;
+
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="item1">Monday Times</div>
+    <div class="item2">Nav</div>
+    <div class="item3">Left Side</div>
+    <div class="item4">Content</div>
+    <div class="item5">Right Side</div>
+    <div class="item6">Footer</div>
+
+</div>
+</body>
+</html>
