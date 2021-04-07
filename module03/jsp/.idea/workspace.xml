@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6021046d-0c47-4cc4-a8a4-bdb0d993560f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Servlet/src/controller/Servletjsp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlet/web/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlet/web/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Servlet/web/jspbasic.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Castudymodule02/.idea/Castudymodule02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Castudymodule02/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Castudymodule02/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Castudymodule02/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Castudymodule02/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Castudymodule02/Castudymodule02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Castudymodule0_2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Castudymodule0_2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Castudymodule0_2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Castudymodule0_2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Castudymodule0_2/Castudymodule0_2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QLSV/src/qlsv/QLSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QLSV/src/qlsv/QLSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QLSV/src/qlsv/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QLSV/src/qlsv/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlet/src/controller/HttpServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Servlet/src/controller/HttpServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlet/src/controller/ServletCurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Servlet/src/controller/ServletCurrency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlet/src/controller/ServletTu_dien.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Servlet/src/controller/ServletTu_dien.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlet/src/controller/Servletlogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Servlet/src/controller/Servletlogin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlet/src/controller/Servletproduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Servlet/src/controller/Servletproduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlet/web/WEB-INF/currency.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Servlet/web/WEB-INF/currency.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlet/web/WEB-INF/productdiscout.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Servlet/web/WEB-INF/productdiscout.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlet/web/WEB-INF/tu_dien.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../Servlet/web/WEB-INF/tu_dien.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../castudy02/src/commons/Regex.java" beforeDir="false" afterPath="$PROJECT_DIR$/../castudy02/src/commons/Regex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../castudy02/src/service/RoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../castudy02/src/service/RoomService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/QLSV/src/StudenManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/QLSV/src/StudenManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/castudy02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/out/production/castudy02/Data/customers.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/out/production/castudy02/Data/employee.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/out/production/castudy02/Data/house.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/out/production/castudy02/Data/room.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/out/production/castudy02/Data/villas.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/src/Data/customers.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/src/Data/employee.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/src/Data/house.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/src/Data/room.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/src/Data/villas.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/commons/ReadFileCSV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/commons/WriteFileCSV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/controllers/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/models/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/models/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/models/House.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/models/Room.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/models/Services.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/models/Villa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/service/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/service/EmployeeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/service/HousService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/service/RoomService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/service/VillaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/commons/WriteFileCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/commons/WriteFileCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/commons/regex.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/commons/regex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/data/product.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/data/product.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/models/InputProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/models/InputProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/models/OutputProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/models/OutputProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/productshow/ProductShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/productshow/ProductShow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/src/_00_review/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module02/src/_00_review/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/src/_00_review/TEST.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module02/src/_00_review/TEST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/src/b3_Array_method/Thuc_hanh/nhiet_do.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module02/src/b3_Array_method/Thuc_hanh/nhiet_do.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/Introduction/BMI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/Introduction/SystemTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/Introduction/check_day_on_mon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/Introduction/khai_bao_bien.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/Introduction/kt_nam_nhuan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/Introduction/pt_bac1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/Introduction/toan_tu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/module2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/Module 2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/out/production/Module 2/.idea/Module 2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/out/production/Module 2/Introduction/BMI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/out/production/Module 2/Introduction/SystemTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/out/production/Module 2/Introduction/check_day_on_mon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/out/production/Module 2/Introduction/khai_bao_bien.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/out/production/Module 2/Introduction/kt_nam_nhuan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/out/production/Module 2/Introduction/pt_bac1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/out/production/Module 2/Introduction/toan_tu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuchanh/src/controller/ServerTimeServle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../thuchanh/src/controller/ServerTimeServle.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\A0920I1-NGUYENTATVIET\JSP\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1qWGt7GvMJHD7U4jDNlKxcvs8yR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.44" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.44" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6021046d-0c47-4cc4-a8a4-bdb0d993560f" name="Default Changelist" comment="" />
+      <created>1617188143199</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617188143199</updated>
+      <workItem from="1617188162044" duration="502000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="65" y="0" key="new project wizard" timestamp="1617188667201">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1617188667201" />
+  </component>
+</project>
