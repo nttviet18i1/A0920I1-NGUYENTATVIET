@@ -23,6 +23,13 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\A0920I1-NGUYENTATVIET\module03\ListCustomer\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
     <option name="FILTER_WARNINGS" value="false" />
@@ -41,7 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/controller" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DemoCRUD" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -234,6 +241,7 @@
       <workItem from="1617698738332" duration="4226000" />
       <workItem from="1617706138145" duration="459000" />
       <workItem from="1617738031175" duration="2818000" />
+      <workItem from="1618231660980" duration="52000" />
     </task>
     <servers />
   </component>
@@ -265,10 +273,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="413" y="119" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1366.728@0.0.1366.728" timestamp="1617690492529" />
-    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1617690555778">
+    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1618231711375">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1617690555778" />
+    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1618231711375" />
     <state width="905" height="62" key="GridCell.Tab.0.bottom" timestamp="1617741399472">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
