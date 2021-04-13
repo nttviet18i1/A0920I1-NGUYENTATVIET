@@ -45,7 +45,7 @@ public class RoomService {
         String[] temp = null;
         for (String str: stringList) {
             temp = str.split(",");
-           Room room = new Room(Integer.parseInt(temp[0]),temp[1],Double.parseDouble(temp[2]),Integer.parseInt(temp[3]),Integer.parseInt(temp[4]),temp[5],temp[6]);
+           Room room = new Room(Integer.parseInt(temp[1]),);
             roomsList.add(room);
         }
         for(Room room:roomsList){

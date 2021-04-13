@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="DemoHome:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1994e788-380d-4c00-8d68-03af614e0cf7" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../CRUD_DataBase/src/controller/UserListServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_DataBase/src/dao/lmpl/IUserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_DataBase/src/dao/lmpl/UserDAOlmpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_DataBase/src/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_DataBase/src/until/ConnectionDB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_DataBase/web/WEB-INF/libra/mysql-connector-java-8.0.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_DataBase/web/WEB-INF/libra/servlet-api-2.5-6.0.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_DataBase/web/WEB-INF/libra/taglibs-standard-impl-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_DataBase/web/WEB-INF/libra/taglibs-standard-spec-1.2.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CRUD_DataBase/web/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRUD/src/controller/ServletSaveStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRUD/src/controller/ServletdeletStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRUD/src/controller/StudentListServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRUD/src/model/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRUD/src/service/StudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRUD/src/service/StudentServicelmpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRUD/web/Student/create.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CRUD/web/Student/list.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Castudymodule02/.idea/Castudymodule02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Castudymodule02/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Castudymodule02/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Castudymodule02/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Castudymodule02/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Castudymodule02/Castudymodule02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Castudymodule0_2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Castudymodule0_2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Castudymodule0_2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Castudymodule0_2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Castudymodule0_2/Castudymodule0_2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSPVAJSPL/web/Tu_dien.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JSPVAJSPL/web/product.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QLSV/src/qlsv/QLSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QLSV/src/qlsv/QLSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QLSV/src/qlsv/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/../QLSV/src/qlsv/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlet/src/controller/HttpServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlet/src/controller/ServletCurrency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlet/src/controller/ServletTu_dien.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlet/src/controller/Servletjsp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlet/src/controller/Servletlogin.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlet/src/controller/Servletproduct.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlet/web/WEB-INF/currency.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlet/web/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlet/web/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlet/web/WEB-INF/productdiscout.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Servlet/web/jspbasic.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../castudy02/src/commons/Regex.java" beforeDir="false" afterPath="$PROJECT_DIR$/../castudy02/src/commons/Regex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../castudy02/src/service/RoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../castudy02/src/service/RoomService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/.idea/demo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demo/QLSV/src/StudenManagement.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jspweb/web/VietnameDictionary.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jspweb/web/WEB-INF/dictionary.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../jspweb/web/converter.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/castudy02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/out/production/castudy02/Data/customers.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/out/production/castudy02/Data/employee.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/out/production/castudy02/Data/house.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/out/production/castudy02/Data/room.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/out/production/castudy02/Data/villas.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/src/Data/customers.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/src/Data/employee.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/src/Data/house.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/src/Data/room.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/castudy02/src/Data/villas.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/commons/ReadFileCSV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/commons/WriteFileCSV.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/controllers/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/models/Customer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/models/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/models/House.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/models/Room.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/models/Services.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/models/Villa.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/service/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/service/EmployeeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/service/HousService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/service/RoomService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/out/production/module02/service/VillaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/commons/WriteFileCSV.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/commons/WriteFileCSV.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/commons/regex.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/commons/regex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/controllers/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/controllers/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/data/product.csv" beforeDir="false" afterPath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/data/product.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/models/InputProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/models/InputProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/models/OutputProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/models/OutputProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/models/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/models/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/productshow/ProductShow.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module02/src/Thicuoimodule2/productshow/ProductShow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/src/_00_review/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module02/src/_00_review/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/src/_00_review/TEST.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module02/src/_00_review/TEST.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module02/src/b3_Array_method/Thuc_hanh/nhiet_do.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module02/src/b3_Array_method/Thuc_hanh/nhiet_do.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module03/DemoCRUD/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../module03/DemoCRUD/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module03/ListCustomer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../module03/ListCustomer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/Introduction/BMI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/Introduction/SystemTime.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/Introduction/check_day_on_mon.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/Introduction/khai_bao_bien.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/Introduction/kt_nam_nhuan.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/Introduction/pt_bac1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/Introduction/toan_tu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/module2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/Module 2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/out/production/Module 2/.idea/Module 2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/out/production/Module 2/Introduction/BMI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/out/production/Module 2/Introduction/SystemTime.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/out/production/Module 2/Introduction/check_day_on_mon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/out/production/Module 2/Introduction/khai_bao_bien.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/out/production/Module 2/Introduction/kt_nam_nhuan.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/out/production/Module 2/Introduction/pt_bac1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module2/out/production/Module 2/Introduction/toan_tu.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuchanh/src/controller/ServerTimeServle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../thuchanh/src/controller/ServerTimeServle.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="Jsp File" />
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\A0920I1-NGUYENTATVIET\DemoHome\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="1qjk2TZkNvhcXDjPZt4MbohTlni" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CRUD_DataBase" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.441" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.441" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/DemoHome_war_exploded/" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="DemoHome:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/DemoHome_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_DemoHome_2" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="51158" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="DemoHome:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1994e788-380d-4c00-8d68-03af614e0cf7" name="Default Changelist" comment="" />
+      <created>1617600179292</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617600179292</updated>
+      <workItem from="1617600185570" duration="2275000" />
+      <workItem from="1617621236252" duration="1836000" />
+      <workItem from="1617623890935" duration="1004000" />
+      <workItem from="1617674456310" duration="3051000" />
+      <workItem from="1618232974140" duration="61000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="23" key="#Project_Structure" timestamp="1617624212612">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="23" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1617624212612" />
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617600774995">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="137" y="19" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1617600774995" />
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser" timestamp="1617677383110">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="80" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1617677383110" />
+    <state x="275" y="22" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1617600769031">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable/0.0.1366.728@0.0.1366.728" timestamp="1617600769031" />
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1617602401032">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="111" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.728@0.0.1366.728" timestamp="1617602401032" />
+    <state x="413" y="119" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog" timestamp="1617621321352">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="119" key="#com.intellij.util.ui.classpath.ChooseLibrariesDialog/0.0.1366.728@0.0.1366.728" timestamp="1617621321352" />
+    <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1618233033821">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="105" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1618233033821" />
+    <state width="905" height="179" key="GridCell.Tab.0.bottom" timestamp="1617677544226">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1617677544226" />
+    <state width="905" height="179" key="GridCell.Tab.0.center" timestamp="1617677544226">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1617677544226" />
+    <state width="905" height="179" key="GridCell.Tab.0.left" timestamp="1617677544226">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1617677544226" />
+    <state width="905" height="179" key="GridCell.Tab.0.right" timestamp="1617677544226">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1617677544226" />
+    <state width="905" height="179" key="GridCell.Tab.1.bottom" timestamp="1617677544242">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1617677544242" />
+    <state width="905" height="179" key="GridCell.Tab.1.center" timestamp="1617677544226">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1617677544226" />
+    <state width="905" height="179" key="GridCell.Tab.1.left" timestamp="1617677544226">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1617677544226" />
+    <state width="905" height="179" key="GridCell.Tab.1.right" timestamp="1617677544226">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1617677544226" />
+    <state width="905" height="179" key="GridCell.Tab.2.bottom" timestamp="1617677544242">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1617677544242" />
+    <state width="905" height="179" key="GridCell.Tab.2.center" timestamp="1617677544242">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1617677544242" />
+    <state width="905" height="179" key="GridCell.Tab.2.left" timestamp="1617677544242">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1617677544242" />
+    <state width="905" height="179" key="GridCell.Tab.2.right" timestamp="1617677544242">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="905" height="179" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1617677544242" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1617600727672">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1617600727672" />
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1617621235400">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1617621235400" />
+    <state x="65" y="0" key="new project wizard" timestamp="1617623088973">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1617623088973" />
+  </component>
+</project>

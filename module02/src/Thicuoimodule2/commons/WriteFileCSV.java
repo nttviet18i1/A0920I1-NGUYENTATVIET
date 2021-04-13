@@ -1,4 +1,4 @@
-package commons;
+package Thicuoimodule2.commons;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;

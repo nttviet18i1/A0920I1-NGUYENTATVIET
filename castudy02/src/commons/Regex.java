@@ -20,8 +20,8 @@ public class Regex {
     }
 
     public static boolean validateName(String name) {
-        pattern = Pattern.compile(NAME_REGEX);
-        matcher = pattern.matcher(name);
-        return matcher.matches();
+            pattern = Pattern.compile(NAME_REGEX);
+            matcher = pattern.matcher(name);
+            return matcher.matches();
     }
 }
