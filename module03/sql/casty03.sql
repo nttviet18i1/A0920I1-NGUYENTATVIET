@@ -39,7 +39,7 @@ create table if not exists loai_KH(
 id_LoaiKH int primary KEY auto_increment,
 ten_KH varchar(50)
 );
- sp_rename 'loai_KH.ten_KH', 'tenloai_KH', 'COLUMN';
+
 
 
 create table KH(

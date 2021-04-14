@@ -242,6 +242,7 @@
       <workItem from="1617706138145" duration="459000" />
       <workItem from="1617738031175" duration="2818000" />
       <workItem from="1618231660980" duration="52000" />
+      <workItem from="1618372087964" duration="118000" />
     </task>
     <servers />
   </component>
@@ -325,9 +326,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="905" height="62" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1617741399472" />
-    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1617738033910">
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1618372175974">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1617738033910" />
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1618372175974" />
+    <state x="65" y="0" key="new project wizard" timestamp="1618372208303">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="0" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1618372208303" />
   </component>
 </project>
