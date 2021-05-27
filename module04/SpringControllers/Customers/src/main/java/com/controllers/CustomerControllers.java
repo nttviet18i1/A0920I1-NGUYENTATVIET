@@ -12,7 +12,7 @@ public class CustomerControllers {
 
 
     @RequestMapping("/home")
-    public String getList(Model model){
+    public String   getList(Model model){
         CustomerServicelpml customerServicelpml = new CustomerServicelpml();
         model.addAttribute("customers",customerServicelpml.findAll());
         return"list";
