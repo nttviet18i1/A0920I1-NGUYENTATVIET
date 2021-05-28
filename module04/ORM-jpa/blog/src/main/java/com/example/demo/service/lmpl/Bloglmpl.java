@@ -4,12 +4,12 @@ import com.example.demo.model.Blog;
 import com.example.demo.repository.BlogRepository;
 import com.example.demo.service.IBlog;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
-
+@Service
 public class Bloglmpl implements IBlog {
     @Autowired BlogRepository blogRepository;
-
 
     @Override
     public List<Blog> findAllBlog() {
@@ -35,5 +35,10 @@ public class Bloglmpl implements IBlog {
     @Override
     public Blog findById(int id) {
       return   blogRepository.findById(id).orElse(null);
+    }
+
+    @Override
+    public List<Blog> findByType(String type) {
+        return blogRepository.findByTypeContaining(type);
     }
 }

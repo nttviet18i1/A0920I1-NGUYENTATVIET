@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Update Product</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<form method="post" th:action="@{/edit}" th:object="${products}">
+    <div class="container">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h2 class="text-center">UPDATE CUSTOMER</h2>
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <div class="form-group">
+                        <label > ID:</label>
+                        <input  type="text" class="form-control" th:field="*{id}" readonly="readonly" >
+                    </div>
+                    <label > Name:</label>
+                    <input  type="text" class="form-control" th:field="*{name}" >
+                </div>
+                <div class="form-group">
+                    <label>Type:</label>
+                    <input type="text" class="form-control"  th:field="*{type}"}>
+                </div>
+                <div class="form-group">
+                    <label>Price:</label>
+                    <input type="text" class="form-control"th:field="*{price}">
+                </div>
+                <label >Amount:</label>
+                <input type="text" class="form-control" th:field="*{amount}">
+            </div>
+            <button class="btn btn-success" type="submit">Create</button>
+        </div>
+    </div>
+    </div>
+</form>
+</body>
+</html>
