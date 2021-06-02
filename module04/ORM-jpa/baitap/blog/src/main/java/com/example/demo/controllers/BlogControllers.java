@@ -7,9 +7,11 @@ import org.hibernate.annotations.Parameter;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.validation.Valid;
 import java.util.Optional;
 
 @Controller
@@ -51,10 +53,16 @@ public class BlogControllers {
 
     }
     @PostMapping("/create")
-    public  String getAddBlog(@ModelAttribute("blogs") Blog blog){
-        iBlog.save(blog);
-        return "redirect:/";
+    public  String getAddBlog(@Valid @ModelAttribute("blogs") Blog blog, BindingResult bindingResult){
+        if(bindingResult.hasErrors())
+        {
+            return "create";
+        }
+        else {
 
+            iBlog.save(blog);
+            return "redirect:/";
+        }
 
     }
 }
