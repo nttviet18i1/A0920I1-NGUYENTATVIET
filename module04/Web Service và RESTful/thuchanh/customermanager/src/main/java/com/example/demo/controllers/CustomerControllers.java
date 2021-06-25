@@ -9,6 +9,7 @@ import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Repository;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.util.UriComponentsBuilder;
 
@@ -45,48 +46,41 @@ public class CustomerControllers {
     //-------------------Create a Customer--------------------------------------------------------
 
     @RequestMapping(value = "/customers/", method = RequestMethod.POST)
-    public ResponseEntity<Void> createCustomer(@RequestBody Customers customer, UriComponentsBuilder ucBuilder) {
-        System.out.println("Creating Customer " + customer.getName());
+    public ResponseEntity<Customers> createCustomer(@RequestBody Customers customer) {
+
         customersService.saveCustomer(customer);
-        HttpHeaders headers = new HttpHeaders();
-        headers.setLocation(ucBuilder.path("/customers/{id}").buildAndExpand(customer.getId()).toUri());
-        return new ResponseEntity<Void>(headers, HttpStatus.CREATED);
+        return new ResponseEntity<Customers>(HttpStatus.CREATED);
     }
 
-   /* //------------------- Update a Customer --------------------------------------------------------
+    //------------------- Update a Customer --------------------------------------------------------
 
     @RequestMapping(value = "/customers/{id}", method = RequestMethod.PUT)
-    public ResponseEntity<Customers> updateCustomer(@PathVariable("id") long id, @RequestBody Customers customer) {
-        System.out.println("Updating Customer " + id);
+    public ResponseEntity<Customers> updateCustomer(@PathVariable("id") int id, @RequestBody Customers customer) {
 
-        Customers currentCustomer = customerService.findById(id);
-
-        if (currentCustomer == null) {
-            System.out.println("Customer with id " + id + " not found");
-            return new ResponseEntity<Customer>(HttpStatus.NOT_FOUND);
-        }
-
-        currentCustomer.setFirstName(customer.getFirstName());
-        currentCustomer.setLastName(customer.getLastName());
-        currentCustomer.setId(customer.getId());
-
-        customerService.save(currentCustomer);
-        return new ResponseEntity<Customer>(currentCustomer, HttpStatus.OK);
-    }*/
-
-   //------------------- Delete a Customer --------------------------------------------------------
-
-    @RequestMapping(value = "/customers/{id}", method = RequestMethod.DELETE)
-    public ResponseEntity<Customers> deleteCustomer(@PathVariable("id") int id) {
-        System.out.println("Fetching & Deleting Customer with id " + id);
-
-        Customers customer = customersService.findById(id);
+        customersService.findById(id);
         if (customer == null) {
-            System.out.println("Unable to delete. Customer with id " + id + " not found");
             return new ResponseEntity<Customers>(HttpStatus.NOT_FOUND);
+        } else {
+            customersService.saveCustomer(customer);
+            customer.setName(customer.getName());
+            customer.setAge(customer.getAge());
         }
 
-        customersService.delete(id);
-        return new ResponseEntity<Customers>(HttpStatus.NO_CONTENT);
+           /* //------------------- Delete a Customer --------------------------------------------------------
+            @RequestMapping(value = "/customers/{id}", method = RequestMethod.DELETE)
+            public ResponseEntity<Customers> delete(){
+
+
+                customersService.findById(id);
+                if (customers == null) {
+
+                    return new ResponseEntity<Customers>(HttpStatus.NOT_FOUND);
+                } else
+
+                    customersService.delete(id);
+                return new ResponseEntity<Customers>(HttpStatus.NO_CONTENT);
+            }
+        }*/
     }
 }
+

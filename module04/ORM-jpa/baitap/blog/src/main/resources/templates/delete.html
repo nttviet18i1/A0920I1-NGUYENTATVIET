@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>THÊM MỚI KHÁCH HÀNG</title>
+
+</head>
+<body>
+
+<form method="post" th:action="@{/home/delete/{id}(id=${blogs.getId()})}" th:object="${blogs}">
+    <div class="container">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <h2 class="text-center">Delete BLOG</h2>
+            </div>
+            <div class="panel-body">
+                <div class="form-group">
+                    <div class="form-group">
+                        <label >ID:</label>
+                        <input  type="text" class="form-control" th:field="*{id}" readonly="readonly" >
+                    </div>
+                    <label >Full Name:</label>
+                    <input  type="text" class="form-control" th:field="*{type}" >
+                </div>
+                <div class="form-group">
+                    <label>Address:</label>
+                    <input type="text" class="form-control"  th:field="*{author}"}>
+                </div>
+                <div class="form-group">
+                    <label>Age:</label>
+                    <input type="text" class="form-control"th:field="*{description}">
+                </div>
+
+
+                <button class="btn btn-success" type="submit">Delete</button>
+            </div>
+        </div>
+    </div>
+</form>
+</body>
+</html>
