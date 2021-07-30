@@ -14,7 +14,7 @@
 <th:block th:if="${message}">
     <p th:text="${message}"></p>
 </th:block>
-<form th:action="@{/product/create-product}" method="post" th:object="${product}">
+<form  th:action="@{/product/create-product}" method="post" th:object="${product}">
     <table class="table">
         <tr>
             <td>Product Code</td>
@@ -22,7 +22,7 @@
         </tr>
         <tr>
             <td>Product Name</td>
-            <td><input type="text" th:field = "*{nameProduct}"></td>
+            <td><th:block input type="text" th:field = "*{nameProduct}"></td>
         </tr>
         <tr>
             <td>Old Price</td>
@@ -46,8 +46,7 @@
         </tr>
     </table>
 
-</form>
-<!-- Optional JavaScript -->
+</form> <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
 </body>

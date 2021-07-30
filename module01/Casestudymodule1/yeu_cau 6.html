@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ứng Dụng Quản Lý Khu nghỉ dưỡng Furama</title>
+</head>
+<body>
+<script>
+    class Customer{
+        constructor(name,identityCard,birthday,email, address,typeCustomer,typeService,rentDay,typeRoom,discount,quantityIncluded,total) {
+            this.name=name;
+            this.identityCard=identityCard;
+            this.birthday=birthday;
+            this.email=email;
+            this.address=address;
+            this.typeCustomer=typeCustomer;
+            this.typeService=typeService;
+            this.rentDay=rentDay;
+            this.typeRoom=typeRoom;
+            this.discout=discount;
+            this.quantityIncluded=quantityIncluded;
+            this.total=total;
+
+        }
+        getName(){
+            return this.name;
+        }
+        getIndentityCard(){
+            return this.identityCard
+        }
+        getBirthday(){
+           return  this.birthday
+        }
+        getEmail(){
+            return this.email;
+        }
+        getAddress(){
+           return  this.address;
+        }
+        getTypeCustomer(){
+          return   this.typeCustomer;
+        }
+        getTypeService(){
+         return    this.typeService;
+        }
+        getRentday(){
+          return   this.rentDay;
+        }
+        getTypeRoom(){
+          return   this.typeRoom;
+        }
+        getDiscount(){
+           return  this.discout;
+        }
+        getQuantityIncluded(){
+         return    this.quantityIncluded
+        }
+        getTotal(){
+          return   this.total;
+        }
+    }
+    let listCustomer=[];
+    listCustomer.push(new Customer("Viet",206366567,"2020-20-11","nguyentatviettk@gmail.com","Đà Nẵng","Gold","Villa",3,"Vip",0.1,4,12300))
+    function displayCustomer() {
+        document.body.innerHTML = "";
+        let temp = "<table border='1'>";
+        temp += "<tr>";
+        temp += "<th width='50px'>Name</th>";
+        temp += "<th width='50px'>CMND</th>";
+        temp += "<th width='50px'>Birthday</th>";
+        temp += "<th width='50px'>Email</th>"
+        temp += "<th width='50px'>Address</th>";
+        temp += "<th width='50px'>TypeCustomer</th>";
+        temp += "<th width='50px'>TypeService</th>";
+        temp += "<th width='50px'>RentDay</th>";
+        temp += "<th width='50px'>TypeRoom</th>";
+        temp += "<th width='50px'>Discount</th>";
+        temp += "<th width='50px'>QuantityIncluded</th>";
+        temp += "<th width='50px'>Total</th>";
+        temp += "</tr>";
+        for (let i = 0; i < listCustomer.length; i++) {
+            temp += "<tr>";
+            temp += "<td>" + listCustomer[i].getName() + "</td>";
+            temp += "<td>" + listCustomer[i].getIndentityCard() + "</td>";
+            temp += "<td>" + listCustomer[i].getBirthday() + "</td>";
+            temp += "<td>" + listCustomer[i].getEmail() + "</td>";
+            temp += "<td>" + listCustomer[i].getAddress() + "</td>";
+            temp += "<td>" + listCustomer[i].getTypeCustomer() + "</td>";
+            temp += "<td>" + listCustomer[i].getTypeService() + "</td>";
+            temp += "<td>" + listCustomer[i].getRentday() + "</td>";
+            temp += "<td>" + listCustomer[i].getTypeRoom() + "</td>";
+            temp += "<td>" + listCustomer[i].getDiscount() + "</td>";
+            temp += "<td>" + listCustomer[i].getQuantityIncluded() + "</td>";
+            temp += "<td>" + listCustomer[i].getTotal() + "</td>";
+
+            temp += "<td><button onclick='changeCustomer(" + i + ")'>Edit</button></td>";
+            temp += "<td><button onclick='deleteCustomer(" + i + ")'>Delete</button></td>";
+            temp += "</tr>";
+        }
+        temp += "</table>";
+        temp += "<button onclick='addCustomer()'>Add Customer</button>";
+        document.writeln(temp);
+    }
+   function addCustomer() {
+        document.body.innerHTML="";
+        let temp="<h1 align='center' style='background: chartreuse'>Quản Lý Khu nghỉ dưỡng Furama</h1>";
+        temp+="<table>";
+
+       temp+="<tr>";
+       temp+="<td>";
+       temp+= 'Tên khách hàng:';
+       temp+=' </td>';
+       temp+='<td>';
+       temp+='<input type="text" id="name">';
+       temp+='</td>';
+       temp+="</tr>";
+
+       temp+="<tr>";
+       temp+='<td>';
+       temp+=' Số CMND:';
+       temp+= ' </td>';
+       temp+='<td>';
+       temp+='<input type="text" id="seri">';
+       temp+=' </td>';
+       temp+='</tr>';
+       temp+='<tr>';
+       temp+=' <td>';
+       temp+=' Ngày tháng năm sinh:';
+       temp+=' </td>';
+       temp+='<td>';
+       temp+=' <input type="date" id="date">';
+
+
+       temp +=' </td>';
+            temp +='</tr>';
+       temp +='<tr>';
+       temp +='<td>Email:</td>';
+       temp +='<td>';
+       temp +=' <input type="email" id="mail">';
+
+
+       temp += ' </td>';
+       temp += ' </tr>';
+       temp += ' <tr>';
+       temp += '<td>';
+       temp +='Địa chỉ:';
+       temp +='</td>';
+       temp+= '<td>';
+       temp +='<textarea id="address"></textarea>';
+
+
+       temp += ' </td>';
+       temp +=' </tr>';
+       temp +='  <tr>';
+       temp+= '<td>';
+       temp += ' Loại customer :';
+       temp += ' </td>';
+       temp+= '  <td>';
+       temp+='<select id="customer">';
+       temp+=' <option>Diamond</option>';
+       temp+=  '<option>Platinum</option>';
+       temp+=  ' <option>Gold</option>';
+       temp+= '<option>Silver</option>';
+       temp+=' <option>Member</option>';
+       temp+= '</select>';
+
+
+
+       temp+='</td>';
+       temp+=' </tr>';
+       temp+=' <tr>';
+       temp+=' <td>';
+       temp+=' Số ngày thuê:';
+       temp+='  </td>';
+       temp+= '<td>';
+       temp+='<input type="text" id="rentday">';
+
+
+       temp+= ' </td>';
+       temp+= '</tr>';
+       temp+=' <tr>';
+       temp+='<td>';
+       temp+=' Loại dịch vụ:';
+       temp+= ' </td>';
+       temp+='<td>';
+       temp+=' <select id="service">';
+       temp+=' <option value="villa">Villa</option>';
+       temp+= ' <option value="house">House</option>';
+       temp+='<option value="office">Room</option>';
+
+       temp+= ' </select>';
+
+
+       temp+= ' </td>';
+
+       temp+='</tr>';
+       temp+=' <tr>';
+       temp+='<td>';
+       temp+='Loại Phòng:';
+       temp+= '</td>';
+       temp+='<td>';
+       temp+=' <select id="room">';
+       temp+= "<option>Vip</option>";
+       temp+= '<option> Business</option>';
+       temp+=' <option>Normal</option>';
+
+
+       temp+= ' </select>';
+       temp+= ' </td>';
+
+       temp+=' </tr>';
+       temp+=' <tr>';
+       temp+='<td>Số lượng đi kèm:</td>';
+       temp+=' <td>';
+       temp+='<input type="text" id="sl">';
+       temp+=' </td>';
+
+       temp+= '</tr>';
+       temp+='  <tr>';
+       temp+= ' <td>Giảm giá:</td>';
+       temp+='  <td>';
+       temp+='  <input type="text" id="discount">';
+       temp+=' </td>';
+       temp+='  </tr>';
+       temp+=' <tr>';
+       temp+='  <td>Tổng Tiền:</td>';
+       temp+='<td>';
+       temp+=' <input type="text" id="total">';
+       temp+= ' </td>';
+       temp+=' </tr>';
+       temp+= ' <tr>';
+        temp+="</tr>";
+       temp+="</table>";
+        temp+="<button onclick='successCustomer()'>Add Customer</button>";
+        document.writeln(temp);
+
+    }
+    function successCustomer() {
+        let name = document.getElementById("name").value;
+        let identityCard = document.getElementById("seri").value;
+        let birthday= document.getElementById("date").value;
+        let email= document.getElementById("mail").value;
+        let address= document.getElementById("address").value;
+        let typeCustomer= document.getElementById("customer").value;
+        let typeService= document.getElementById("service").value;
+        let rentDay=document.getElementById("rentday").value;
+        let typeRoom=document.getElementById("room").value;
+        let discount=document.getElementById("discount").value/100;
+        let quantityIncluded= document.getElementById("sl").value;
+        let total=0;
+
+        if (document.getElementById("service").value === "villa")
+            total = 500;
+        else if (document.getElementById("service").value === "house")
+            total = 300;
+        else if (document.getElementById("service").value ==="office")
+            total = 100 ;
+        let tongtien =total * rentDay * (1 - discount);
+        document.getElementById("total").value = (tongtien+".000VNĐ");
+
+
+
+
+        listCustomer.push(new Customer(name,identityCard,birthday,email, address,typeCustomer,typeService,rentDay,typeRoom,discount,quantityIncluded,total));
+        displayCustomer();
+    }
+    function changeCustomer(i) {
+        document.body.innerHTML="";
+        let temp="<h1 align='center' style='background: chartreuse'>Quản Lý Khu nghỉ dưỡng Furama</h1>";
+        temp+="<table>";
+
+        temp+="<tr>";
+        temp+="<td>";
+        temp+= 'Tên khách hàng:';
+        temp+=' </td>';
+        temp+='<td>';
+        temp+='<input type="text" id="name">';
+        temp+='</td>';
+        temp+="</tr>";
+
+        temp+="<tr>";
+        temp+='<td>';
+        temp+=' Số CMND:';
+        temp+= ' </td>';
+        temp+='<td>';
+        temp+='<input type="text" id="seri">';
+        temp+=' </td>';
+        temp+='</tr>';
+        temp+='<tr>';
+        temp+=' <td>';
+        temp+=' Ngày tháng năm sinh:';
+        temp+=' </td>';
+        temp+='<td>';
+        temp+=' <input type="date" id="date">';
+
+
+        temp +=' </td>';
+        temp +='</tr>';
+        temp +='<tr>';
+        temp +='<td>Email:</td>';
+        temp +='<td>';
+        temp +=' <input type="email" id="mail">';
+
+
+        temp += ' </td>';
+        temp += ' </tr>';
+        temp += ' <tr>';
+        temp += '<td>';
+        temp +='Địa chỉ:';
+        temp +='</td>';
+        temp+= '<td>';
+        temp +='<textarea id="address"></textarea>';
+
+
+        temp += ' </td>';
+        temp +=' </tr>';
+        temp +='  <tr>';
+        temp+= '<td>';
+        temp += ' Loại customer :';
+        temp += ' </td>';
+        temp+= '  <td>';
+        temp+='<select id="customer">';
+        temp+=' <option>Diamond</option>';
+        temp+=  '<option>Platinum</option>';
+        temp+=  ' <option>Gold</option>';
+        temp+= '<option>Silver</option>';
+        temp+=' <option>Member</option>';
+        temp+= '</select>';
+
+
+
+        temp+='</td>';
+        temp+=' </tr>';
+        temp+=' <tr>';
+        temp+=' <td>';
+        temp+=' Số ngày thuê:';
+        temp+='  </td>';
+        temp+= '<td>';
+        temp+='<input type="text" id="rentday">';
+
+
+        temp+= ' </td>';
+        temp+= '</tr>';
+        temp+=' <tr>';
+        temp+='<td>';
+        temp+=' Loại dịch vụ:';
+        temp+= ' </td>';
+        temp+='<td>';
+        temp+=' <select id="service">';
+        temp+=' <option value="villa">Villa</option>';
+        temp+= ' <option value="house">House</option>';
+        temp+='<option value="office">Room</option>';
+
+        temp+= ' </select>';
+
+
+        temp+= ' </td>';
+
+        temp+='</tr>';
+        temp+=' <tr>';
+        temp+='<td>';
+        temp+='Loại Phòng:';
+        temp+= '</td>';
+        temp+='<td>';
+        temp+=' <select id="room">';
+        temp+= "<option>Vip</option>";
+        temp+= '<option> Business</option>';
+        temp+=' <option>Normal</option>';
+
+
+        temp+= ' </select>';
+        temp+= ' </td>';
+
+        temp+=' </tr>';
+        temp+=' <tr>';
+        temp+='<td>Số lượng đi kèm:</td>';
+        temp+=' <td>';
+        temp+='<input type="text" id="sl">';
+        temp+=' </td>';
+
+        temp+= '</tr>';
+        temp+='  <tr>';
+        temp+= ' <td>Giảm giá:</td>';
+        temp+='  <td>';
+        temp+='  <input type="text" id="discount">';
+        temp+=' </td>';
+        temp+='  </tr>';
+        temp+=' <tr>';
+        temp+='  <td>Tổng Tiền:</td>';
+        temp+='<td>';
+        temp+=' <input type="text" id="total">';
+        temp+= ' </td>';
+        temp+=' </tr>';
+        temp+= ' <tr>';
+        temp+="</tr>";
+        temp+="</table>";
+
+
+        temp+="<button onclick='successEditCustomer(+i+)'>EditCustomer</button>";
+        document.writeln(temp);
+
+
+    }
+    function successEditCustomer(i) {
+        let name = document.getElementById("name").value;
+
+        listCustomer[i] = new Customer(name);
+        displayCustomer();
+    }
+    function deleteCustomer(i) {
+        if(confirm("bạn có muốn xóa "+listCustomer[i].getName()+" này hay không?")) {
+            listCustomer.splice(i,1);
+            displayCustomer();
+        }
+    }
+    displayCustomer();
+
+
+
+</script>
+
+</body>
+</html>

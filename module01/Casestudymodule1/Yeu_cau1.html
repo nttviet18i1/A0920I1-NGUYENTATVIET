@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 style="background: chartreuse"; align="center">TÍNH TIỀN THUÊ PHÒNG KHÁCH SẠN FURRAMA</h1>
+<table  align="center">
+    <tr>
+        <td>
+            Tên khách hàng:
+        </td>
+        <td>
+            <input type="text" id="name">
+        </td>
+        <td> <p id="kq"></p></td>
+    </tr>
+
+    <tr>
+        <td>
+            Số CMND:
+        </td>
+        <td>
+            <input type="text" id="seri">
+
+        </td>
+        <td> <p id="t1"></p></td>
+    </tr>
+    <tr>
+        <td>
+            Ngày tháng năm sinh:
+        </td>
+        <td>
+            <input type="date" id="date">
+
+
+        </td>
+        <td> <p id="t2"></p></td>
+    </tr>
+    <tr>
+        <td>Email:</td>
+        <td>
+            <input type="email" id="mail">
+
+
+        </td>
+        <td> <p id="t3"></p></td>
+    </tr>
+    <tr>
+        <td>
+            Địa chỉ:
+        </td>
+        <td>
+            <textarea id="address"></textarea>
+
+
+        </td>
+        <td>  <p id="t4"></p></td>
+    </tr>
+    <tr>
+        <td>
+            Loại customer :
+        </td>
+        <td>
+            <select id="customer">
+                <option>Diamond</option>
+                <option>Platinum</option>
+                <option>Gold</option>
+                <option>Silver</option>
+                <option>Member</option>
+            </select>
+
+
+
+        </td>
+        <td><p id="t5"></p></td>
+    </tr>
+    <tr>
+        <td>
+            Số ngày thuê:
+        </td>
+        <td>
+            <input type="text" id="frentday">
+
+
+        </td>
+        <td>   <p id="t6"></p></td>
+    </tr>
+    <tr>
+        <td>
+            Loại dịch vụ:
+        </td>
+        <td>
+            <select id="service">
+                <option value="villa">Villa</option>
+                <option value="house">House</option>
+                <option value="office">Room</option>
+
+            </select>
+
+
+        </td>
+        <td> <p id="t7"></p></td>
+    </tr>
+    <tr>
+        <td>
+            Loại Phòng:
+        </td>
+        <td>
+            <select id="room">
+                <option>Vip</option>
+                <option> Business</option>
+                <option>Normal</option>
+
+
+            </select>
+        </td>
+       <td> <p id="t8"></p></td>
+    </tr>
+    <tr>
+        <td>Số lượng đi kèm:</td>
+        <td>
+            <input type="text" id="sl">
+        </td>
+        <td> <p id="t9"></p></td>
+    </tr>
+    <tr>
+        <td>Giảm giá:</td>
+        <td>
+            <input type="text" id="discout">
+        </td>
+        <td> <p id="t10"></p></td>
+    </tr>
+    <tr>
+        <td>Tổng Tiền:</td>
+        <td>
+            <input type="text" id="total">
+        </td>
+        <td> <p id="t11"></p></td>
+    </tr>
+    <tr>
+        <td><input type="button" value="show" onclick="check()"></td>
+        <td><input type="button" value="Edit" onclick="edit()"></td>
+
+    </tr>
+
+
+</table>
+
+
+<script>
+    function check() {
+    let name= document.getElementById("name").value;
+    kq.innerText=  name= document.getElementById("name").value;
+        let seri= document.getElementById("seri").value;
+        t1.innerText=  seri= document.getElementById("seri").value;
+        let date= document.getElementById("date").value;
+        t2.innerText=  date= document.getElementById("date").value;
+            let mail= document.getElementById("mail").value;
+        t3.innerText=  mail= document.getElementById("mail").value;
+        let address= document.getElementById("address").value;
+        t4.innerText=  address= document.getElementById("address").value;
+        let customer= document.getElementById("customer").value;
+        t5.innerText=  customer= document.getElementById("customer").value;
+        let frentday= document.getElementById("frentday").value;
+        t6.innerText=  frentday=document.getElementById("frentday").value;
+        let service= document.getElementById("service").value;
+        t7.innerText=  service= document.getElementById("service").value;
+        let room= document.getElementById("room").value;
+        t8.innerText=  room= document.getElementById("room").value;
+        let sl= document.getElementById("sl").value;
+        t9.innerText=  sl= document.getElementById("sl").value;
+        let discout= document.getElementById("discout").value;
+        t10.innerText=  discout= document.getElementById("discout").value/100;
+        let total=0;
+
+       if (document.getElementById("service").value === "villa")
+            total = 500;
+        else if (document.getElementById("service").value === "house")
+            total = 300;
+        else if (document.getElementById("service").value ==="office")
+            total = 100 ;
+        let tongtien =total * frentday * (1 - discout);
+        document.getElementById("total").value = ("tổng tiền là:"+tongtien+".000VNĐ");
+
+
+    }
+function edit() {
+
+}
+
+
+
+</script>
+
+</body>
+</html>

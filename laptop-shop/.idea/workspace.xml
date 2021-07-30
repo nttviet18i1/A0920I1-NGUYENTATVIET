@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d05dfce2-ccb7-4bca-8f0a-6e442e7ae0fc" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/A0920I1-NGUYENTATVIET.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/.idea/CasestudyModule2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/CasestudyModule2.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/Validation/RegularException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/commons/FileUntil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/controllers/_0_main_menu/MainController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/controllers/_1_service_menu/AddServicesMainMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/controllers/_1_service_menu/ShowServicesMainMenu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/controllers/_2_customer_menu/AddCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/controllers/_2_customer_menu/ShowCustomer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/controllers/_3_booking_menu/AddBooking.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/controllers/file/AddFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/controllers/file/ReadFile.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/data/booking.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/data/contract.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/data/customer.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/data/house.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/data/room.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/data/test.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/data/villa.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/exceptions/AreaServiceException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/exceptions/CostServicesException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/exceptions/CustomerInformationException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/exceptions/DateOfBirthExcetion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/exceptions/IdServicesException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/exceptions/NameServicesException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/exceptions/NumberFormatExcetion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/exceptions/OptionServiceExcetion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/models/AccompaniedService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/models/Contract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/models/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/models/House.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/models/Human.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/models/Room.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/models/Services.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CasestudyModule2/src/models/Villa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/.idea/artifacts/Managerment_User_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/.idea/dataSources.local.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/.idea/libraries/mysql_connector_java_8_0_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/Managerment User.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/out/artifacts/Managerment_User_war_exploded/User/ListUser.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/out/artifacts/Managerment_User_war_exploded/User/creatUser.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/out/artifacts/Managerment_User_war_exploded/WEB-INF/classes/controller/CreatUserServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/out/artifacts/Managerment_User_war_exploded/WEB-INF/classes/controller/DeleteUserServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/out/artifacts/Managerment_User_war_exploded/WEB-INF/classes/controller/ListUserServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/out/artifacts/Managerment_User_war_exploded/WEB-INF/classes/dao/IUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/out/artifacts/Managerment_User_war_exploded/WEB-INF/classes/dao/Userlmpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/out/artifacts/Managerment_User_war_exploded/WEB-INF/classes/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/out/artifacts/Managerment_User_war_exploded/WEB-INF/classes/utill/ConnectDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/out/artifacts/Managerment_User_war_exploded/WEB-INF/lib/mysql-connector-java-8.0.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/out/artifacts/Managerment_User_war_exploded/WEB-INF/lib/servlet-api-2.5-6.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/out/artifacts/Managerment_User_war_exploded/WEB-INF/lib/taglibs-standard-impl-1.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/out/artifacts/Managerment_User_war_exploded/WEB-INF/lib/taglibs-standard-spec-1.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/out/artifacts/Managerment_User_war_exploded/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/out/artifacts/Managerment_User_war_exploded/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/out/artifacts/Managerment_User_war_exploded/libra]/mysql-connector-java-8.0.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/out/artifacts/Managerment_User_war_exploded/libra]/servlet-api-2.5-6.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/out/artifacts/Managerment_User_war_exploded/libra]/taglibs-standard-impl-1.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/out/artifacts/Managerment_User_war_exploded/libra]/taglibs-standard-spec-1.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/out/production/Managerment User/controller/CreatUserServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/out/production/Managerment User/controller/DeleteUserServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/out/production/Managerment User/controller/ListUserServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/out/production/Managerment User/dao/IUser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/out/production/Managerment User/dao/Userlmpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/out/production/Managerment User/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/out/production/Managerment User/utill/ConnectDB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/src/controller/CreatUserServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/src/controller/DeleteUserServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/src/controller/ListUserServlet.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/src/dao/IUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/src/dao/Userlmpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/src/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/src/utill/ConnectDB.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/web/User/ListUser.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/web/User/creatUser.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/web/libra]/mysql-connector-java-8.0.17.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/web/libra]/servlet-api-2.5-6.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/web/libra]/taglibs-standard-impl-1.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Managerment User/web/libra]/taglibs-standard-spec-1.2.5.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QLSV/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QLSV/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QLSV/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QLSV/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QLSV/QLSV.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QLSV/src/qlsv/QLSV.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../QLSV/src/qlsv/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring-email-Validation/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring-email-Validation/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring-email-Validation/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring-email-Validation/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring-email-Validation/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring-email-Validation/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring-email-Validation/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring-email-Validation/src/main/java/controllers/EmailControllers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring-email-Validation/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring-email-Validation/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring-email-Validation/src/main/webapp/WEB-INF/views/success.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring-email-Validation/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_start/src/main/java/controllers/IndexController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_start/src/main/java/model/student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_start/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_start/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_start/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Spring_start/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Start_Spring/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Start_Spring/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Start_Spring/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Start_Spring/web/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Start_Spring/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../convers_currency/web/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../convers_currency/web/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../covers_currency/src/main/java/contronllers/currency.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../covers_currency/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../covers_currency/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../covers_currency/src/main/webapp/WEB-INF/view/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../covers_currency/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../covid19-tracker/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../covid19-tracker/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../covid19-tracker/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../covid19-tracker/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../covid19-tracker/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../covid19-tracker/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../covid19-tracker/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../covid19-tracker/src/main/java/io/javabrains/covid19tracker/Covid19TrackerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../covid19-tracker/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../covid19-tracker/src/main/resources/templates/helloword.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../covid19-tracker/src/test/java/io/javabrains/covid19tracker/Covid19TrackerApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../create_cart/src/main/resources/templates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../create_cart/src/main/resources/templates/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../create_cart/src/main/resources/templates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/../create_cart/src/main/resources/templates/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dictionary/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dictionary/src/main/java/com/controllers/Home.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dictionary/src/main/java/com/model/DictionarySimple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dictionary/src/main/java/com/repository/Dictionarylpml.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dictionary/src/main/java/com/repository/IDictionary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dictionary/src/main/java/com/service/DictionService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dictionary/src/main/java/com/service/IDictionaryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dictionary/src/main/java/contronllers/Home.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dictionary/src/main/java/model/DictionModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dictionary/src/main/java/repository/Dictionarylpml.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dictionary/src/main/java/repository/IDictionary.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dictionary/src/main/java/service/DictionaryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dictionary/src/main/java/service/iDictionaryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dictionary/src/main/webapp/WEB-INF/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dictionary/src/main/webapp/WEB-INF/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dictionary/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dictionary/src/main/webapp/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dictionary/src/main/webapp/applicationContext.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dictionary/src/main/webapp/dispatcher-servlet.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../dictionary/src/main/webapp/views/home.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module04/I18N/baitap/Product_Manager/src/main/resources/templates/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/../module04/I18N/baitap/Product_Manager/src/main/resources/templates/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module04/I18N/baitap/Product_Manager/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../module04/I18N/baitap/Product_Manager/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module04/I18N/thuchanh/blog_quocte/src/main/java/com/example/demo/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../module04/I18N/thuchanh/blog_quocte/src/main/java/com/example/demo/config/WebMvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module04/I18N/thuchanh/blog_quocte/src/main/resources/i18n/messages_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../module04/I18N/thuchanh/blog_quocte/src/main/resources/i18n/messages_en.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/.idea/MODULE 1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Bien_kieudulieu/1.Bai_tap/Doi_tien_te.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Bien_kieudulieu/1.Bai_tap/chu_vi_dt_hinh_tron.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Bien_kieudulieu/1.Bai_tap/demo _tiente.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Bien_kieudulieu/1.Bai_tap/doi_nhit_do.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Bien_kieudulieu/1.Bai_tap/may_tinh_basic.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Bien_kieudulieu/1.Bai_tap/tinh_diem_tb.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Bien_kieudulieu/2.Thuc_hanh/Script_dau_ra.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Bien_kieudulieu/2.Thuc_hanh/khai_bao_su_dung_bien.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Bien_kieudulieu/2.Thuc_hanh/toan_tu_javacript.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Bien_kieudulieu/2.Thuc_hanh/toss_coin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/CAU 2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Cau_truc_dien_kien1/1.Bai_tap/BMI.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Cau_truc_dien_kien1/1.Bai_tap/S_hinh_chu_nhat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Cau_truc_dien_kien1/1.Bai_tap/S_tam_giac.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Cau_truc_dien_kien1/1.Bai_tap/doyouloveme.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Cau_truc_dien_kien1/1.Bai_tap/game_puzz.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Cau_truc_dien_kien1/1.Bai_tap/good-fast-cheap.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Cau_truc_dien_kien1/1.Bai_tap/kiem_tra_a_b.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Cau_truc_dien_kien1/1.Bai_tap/kt_so_lon_hon_0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Cau_truc_dien_kien1/1.Bai_tap/kt_tam_giac.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Cau_truc_dien_kien1/1.Bai_tap/kt_tuoi_vao_class10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Cau_truc_dien_kien1/1.Bai_tap/may_tinh.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Cau_truc_dien_kien1/1.Bai_tap/nobita.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Cau_truc_dien_kien1/1.Bai_tap/pt_bac2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Cau_truc_dien_kien1/1.Bai_tap/pt_bat_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Cau_truc_dien_kien1/1.Bai_tap/s_hinh_vuog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Cau_truc_dien_kien1/1.Bai_tap/switch_case_tinh_ngay.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Cau_truc_dien_kien1/1.Bai_tap/tim_max.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Cau_truc_dien_kien1/2.Thuc_hanh/Kiem_tra_nam_nhuan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Cau_truc_dien_kien1/2.Thuc_hanh/Swith_Case.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Cau_truc_dien_kien1/2.Thuc_hanh/if-else.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Cau_truc_dien_kien1/2.Thuc_hanh/luyen_if_else.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Cau_truc_dien_kien1/2.Thuc_hanh/su-kien-lick-chuot.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Cau_truc_dien_kien1/2.Thuc_hanh/switch-case.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Cau_truc_dien_kien1/2.Thuc_hanh/thuc_hanh_if_else.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Cau_truc_dien_kien1/2.Thuc_hanh/toan_tu-3ngoi01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Git_HTML/1.Bai_Tap/CV_Ca_Nhan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Git_HTML/1.Bai_Tap/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Git_HTML/1.Bai_Tap/new.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Git_HTML/1.Bai_Tap/tao_danh_sach.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Git_HTML/2.Thuc_Hanh/HTML_co_ban.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Nhap_mon_lap_trinh/1.Bai_Tap/COURSE 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Nhap_mon_lap_trinh/1.Bai_Tap/COURSE 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Nhap_mon_lap_trinh/1.Bai_Tap/Course1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Nhap_mon_lap_trinh/1.Bai_Tap/Screenshot 2020-10-10 132527.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Nhap_mon_lap_trinh/2.Bai_Thuc_Hanh/Pseudo-code C _sang_F.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Nhap_mon_lap_trinh/2.Bai_Thuc_Hanh/Pseudo-code _Doan_So.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Nhap_mon_lap_trinh/2.Bai_Thuc_Hanh/Pseudo-code _Doi_tien.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Nhap_mon_lap_trinh/2.Bai_Thuc_Hanh/Pseudo-code _Tinh_TB.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Nhap_mon_lap_trinh/2.Bai_Thuc_Hanh/Timsolonnhat.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Nhap_mon_lap_trinh/2.Bai_Thuc_Hanh/Timsolonnhatabc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Nhap_mon_lap_trinh/2.Bai_Thuc_Hanh/toantudk.drawio" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/OOP/1.Bai_tap/Rectangle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/OOP/1.Bai_tap/TV.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/OOP/1.Bai_tap/Temperature.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/OOP/1.Bai_tap/adam_eva.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/OOP/1.Bai_tap/co_ca_ro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/OOP/1.Bai_tap/den_bin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/OOP/2.Thuc_hanh/Circle.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/OOP/2.Thuc_hanh/Funny circles.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/OOP/2.Thuc_hanh/My_Date.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Vong_lap/1.Thuc_hanh/loop-while.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Vong_lap/1.Thuc_hanh/loop_do_while.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Vong_lap/1.Thuc_hanh/loop_for.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Vong_lap/1.Thuc_hanh/loop_long-nhau.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Vong_lap/2.Bai_tap/20 _ fibonacci.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Vong_lap/2.Bai_tap/SNT_dau_tien].html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Vong_lap/2.Bai_tap/bang_cuu_chuong.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Vong_lap/2.Bai_tap/cuu_chuong_for_long.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Vong_lap/2.Bai_tap/dem-1-den-100.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Vong_lap/2.Bai_tap/fizz_buzz.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Vong_lap/2.Bai_tap/game_doan_so.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Vong_lap/2.Bai_tap/in-hinh-chu-nhat.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Vong_lap/2.Bai_tap/in-tam-giac-vuong.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Vong_lap/2.Bai_tap/in_day_ fibonacci_1_20.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Vong_lap/2.Bai_tap/tamgiacvuiong-02.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/Vong_lap/2.Bai_tap/tamgiacvuiong-nguoc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/[Mang]/1.Bai-tap/Faking_Textarea.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/[Mang]/1.Bai-tap/noi _mang _nang _cao.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/[Mang]/1.Bai-tap/noi-mang.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/[Mang]/1.Bai-tap/từ_điển.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/[Mang]/2.Thuc-hanh/ban_co_caro.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/[Mang]/2.Thuc-hanh/simple_screen.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/[Mang]/2.Thuc-hanh/thuchanh-mang1chieu.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/cau 3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/cau_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/form_table/1.Bai_Tap/Dang_ki.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/form_table/1.Bai_Tap/Dk_nguoi_dung.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/form_table/1.Bai_Tap/Servey.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/form_table/1.Bai_Tap/Table_Simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/form_table/1.Bai_Tap/Table_Simple_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/form_table/1.Bai_Tap/Table_nang_cao.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/form_table/1.Bai_Tap/css.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/form_table/1.Bai_Tap/lich_10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/form_table/1.Bai_Tap/so_thich_ca_nhan.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/form_table/2.Thuc_Hanh/Seach_google.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/form_table/2.Thuc_Hanh/oder_form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/form_table/2.Thuc_Hanh/table_nâng_cao.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/form_table/2.Thuc_Hanh/tao_table_simple.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/function/1.Bai_tap/feet_meter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/function/1.Bai_tap/kt_so_nt.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/function/1.Bai_tap/product.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/function/2.Thuc_hanh/TAO_FUNCTION.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/function/2.Thuc_hanh/doinhietdo_FC.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/function/2.Thuc_hanh/tim _min.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/image/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/image/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/image/funnycat 1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/image/funnycat2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/image/funnycat3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/image/funnycat4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/image/gunnycat5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/image/monkey1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/image/monkey2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/image/monkey3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/image/monkey4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/image/monkey5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/image/panda1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/image/panda2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/image/panda3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/image/panda4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/image/panda5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../module1/image/tải xuống.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../s/src/main/java/com/example/demo/WebConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuchanh/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuchanh/.idea/artifacts/thuchanh_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuchanh/.idea/dictionaries/ADMIN.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuchanh/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuchanh/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuchanh/src/controller/ServerTimeServle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../thuchanh/web/index.jsp" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1tgstMHMk9ieBiNyU1FW7Y0BLE2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="LaptopShopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="laptop-shop" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.laptopshop.LaptopShopApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d05dfce2-ccb7-4bca-8f0a-6e442e7ae0fc" name="Default Changelist" comment="" />
+      <created>1623202280067</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1623202280067</updated>
+      <workItem from="1623202283286" duration="521000" />
+      <workItem from="1623202963659" duration="95000" />
+      <workItem from="1623203094570" duration="17000" />
+      <workItem from="1623242139829" duration="601000" />
+      <workItem from="1623243768288" duration="537000" />
+      <workItem from="1623846164935" duration="12000" />
+      <workItem from="1625450183079" duration="35000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="845" y="383" key="#Notifications" timestamp="1623202988925">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="845" y="383" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1623202988925" />
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1625450217297">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1625450217297" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1623244252105">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1623244252105" />
+    <state x="342" y="181" key="new project wizard" timestamp="1623244308134">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="342" y="181" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1623244308134" />
+  </component>
+</project>

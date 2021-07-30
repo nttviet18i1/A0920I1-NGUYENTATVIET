@@ -22,7 +22,7 @@
     <tr >
         <th th:each="product : ${products}">
             <div>
-                <a th:href="@{/product/view-product/{id}(id = ${product.getIdProduct()})}"><img width="230px" height="300px" th:src="@{/img/{img}(img = ${product.getImg()})}"></a>
+               <a th:href="@{/product/view-product/{id}(id = ${product.getIdProduct()})}"><img width="230px" height="300px" th:src="@{/img/{img}(img = ${product.getImg()})}"></a>
             </div>
         </th>`
 
@@ -44,7 +44,7 @@
     </tr>
 </table>
 
-<!-- Modal -->
+    <!-- Modal-->
 <div class="modal fade" id="modelId" tabindex="-1" role="dialog" aria-labelledby="modelTitleId" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
