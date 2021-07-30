@@ -25,7 +25,22 @@
       <change afterPath="$PROJECT_DIR$/../../../.idea/module04.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../.idea/modules.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Castudy04/castudy04/src/main/java/com/codegym/castudy04/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Castudy04/castudy04/src/main/java/com/codegym/castudy04/model/CustomerType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Castudy04/castudy04/src/main/java/com/codegym/castudy04/repository/Reponsitory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Castudy04/castudy04/src/main/java/com/codegym/castudy04/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Castudy04/castudy04/src/main/java/com/codegym/castudy04/service/impl/CustomerServiceImpl.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../DataBinding/thuchanh/UploadFile/.idea/UploadFile.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Product_Manager/src/main/java/com/codegym/a09/config/WebconfigMvc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/blog_quocte/src/main/java/com/example/demo/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/blog_quocte/src/main/java/com/example/demo/controller/DashBoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/blog_quocte/src/main/java/com/example/demo/controller/Logincontrollers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/blog_quocte/src/main/java/com/example/demo/model/Credential.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/blog_quocte/src/main/java/com/example/demo/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/blog_quocte/src/main/resources/i18n/messages_en.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/blog_quocte/src/main/resources/i18n/messages_haw.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/blog_quocte/src/main/resources/templates/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuchanh/blog_quocte/src/main/resources/templates/login.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../ORM-jpa/baitap/18.CSDL_ORM/.idea/modules/CustomerORM.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../ORM-jpa/baitap/18.CSDL_ORM/.idea/modules/CustomerORM.main.iml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../../ORM-jpa/baitap/18.CSDL_ORM/.idea/modules/CustomerORM.test.iml" afterDir="false" />
@@ -155,6 +170,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Product_Manager" />
@@ -327,6 +344,7 @@
       <workItem from="1622125430691" duration="4000" />
       <workItem from="1623244449946" duration="360000" />
       <workItem from="1624958390705" duration="325000" />
+      <workItem from="1625833323008" duration="93000" />
     </task>
     <servers />
   </component>

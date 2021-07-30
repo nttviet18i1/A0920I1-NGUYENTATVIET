@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 >Customer Manager</h1>
+</div>
+</div>
+<!-- /. ROW  -->
+<hr/>
+<div class="row">
+    <div class="col-md-12">
+        <!-- Advanced Tables -->
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <div class="table-responsive">
+                    Language: <a href="?lang=en">English</a> | <a href="?lang=vi">Việt Nam</a>
+                    <form action="/" method="get">
+                        <input type="text" name="key_word">
+                        <input type="submit"  value="search">
+                    </form>
+
+                    <div class="col-sm-6">
+                        <button><a href="/create" class="btn btn-success btn-md" >Add customer</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <form>
+
+            <table class="table table-striped table-bordered table-hover" id="dataTables-example">
+
+                <thead>
+                <tr>
+                    <th>Id Card</th>
+                    <th>Name Customer</th>
+                    <th>Birthday</th>
+                    <th>Gender</th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                    <th>Address</th>
+                    <th>Customer Type</th>
+                    <th>Edit</th>
+                    <th>Delete</th>
+                </tr>
+                </thead>
+
+                <tbody>
+
+                <tr th:each="customer : ${customers}">
+
+                    <td th:text="${customer.customerName}"></td>
+                    <td th:text="${customer.customerBirthday}"></td>
+                    <td th:text="${customer.customerGender}"></td>
+                    <td th:text="${customer.customerPhone}"></td>
+                    <td th:text="${customer.customerEmail}"></td>
+                    <td th:text="${customer.customerAddress}"></td>
+                    <td th:text="${customer.customerType}"></td>
+                  <!--  <td>
+                        <a th:href="@{/delete/__${product.id}__}" class="btn btn-danger" th:text="#{cus.delete}">  |</a>
+                        <a th:href="@{/edit/__${product.id}__}" class="btn btn-info" th:text="#{cus.edit}"></a>
+                    </td>-->
+                </tr>
+                </tbody>
+                </thead>
+            </table>
+        </form>
+    </div>
+</div>
+</div>
+<div>
+    <a th:href="@{'/'(page=${customer.number - 1}, key_word=${key_word})}" th:if="${customer.hasPrevious()}">Previous</a>
+    <span th:text="${customer.number + 1}"></span>/<span th:text="${customer.totalPages}"></span>
+    <a th:href="@{'/'(page=${customer.number + 1}, key_search=${key_word})}" th:if="${customer.hasNext()}">Next</a>
+</div>
+</div>
+</div>
+
+
+</body>
+
+</html>

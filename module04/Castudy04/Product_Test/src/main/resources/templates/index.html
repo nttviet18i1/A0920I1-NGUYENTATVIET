@@ -6,7 +6,7 @@
     <title>Title</title>
 </head>
 <body>
-<h2>Quản lý Custormer</h2>
+<h2>Quản Lý Sản Phẩm</h2>
 </div>
 </div>
 <!-- /. ROW  -->
@@ -33,9 +33,8 @@
                             <tr>
                                 <th>STT</th>
                                 <th>Tên Sản Phẩm</th>
-
                                 <th>Giá Bắt Đầu</th>
-                                <th>Loại Sản Phẩm</th>
+                               <th>Loại Sản Phẩm</th>
                                 <th>Tình Trạng</th>
                                 <th>Hành Động</th>
                             </tr>
@@ -46,13 +45,13 @@
                             <tr th:each="product, start : ${products}">
                                 <td th:text="${start.count}"></td>
                                 <td th:text="${product.name}"></td>
-                                <td th:text="${product.type}"></td>
                                 <td th:text="${product.price}"></td>
-                                <td th:text="${product.amount}"></td>
-                               <!-- <td>
+                                 <td th:text="${product.getCategoryId().getName()}"></td>
+                                <td th:text="${product.status}"></td>
+                            <td>
                                     <a th:href="@{/delete/__${product.id}__}" class="btn btn-danger">Delete |</a>
                                     <a th:href="@{/edit/__${product.id}__}" class="btn btn-info">Edit</a>
-                                </td>-->
+                                </td>
                             </tr>
                             </tbody>
                             </thead>
@@ -61,11 +60,11 @@
                 </div>
             </div>
         </div>
-        <!--<div>
+        <div>
             <a th:href="@{'/'(page=${products.number - 1}, key_word=${key_word})}" th:if="${products.hasPrevious()}">Previous</a>
             <span th:text="${products.number + 1}"></span>/<span th:text="${products.totalPages}"></span>
             <a th:href="@{'/'(page=${products.number + 1}, key_search=${key_word})}" th:if="${products.hasNext()}">Next</a>
-        </div>-->
+        </div>
 
 
 </body>
