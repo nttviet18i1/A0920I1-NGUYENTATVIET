@@ -1,0 +1,38 @@
+<nav class=" navbar navbar-light bg-primary">
+  <div class="container-fluid">
+    <h1 style="color: aliceblue">Angular CRUD</h1>
+    <div class="d-flex">
+      <button  type="button" class="btn btn-success"  [routerLink]="['/customers/add']">Add Employee</button>
+    </div>
+
+  </div>
+</nav>
+<table class="table mt-3">
+  <thead>
+  <tr>
+    <th scope="col">ID</th>
+    <th scope="col">Name</th>
+    <th scope="col">Birth Date</th>
+    <th scope="col">ID Number</th>
+    <th scope="col">Phone Number</th>
+    <th scope="col">Email</th>
+
+    <th scope="col">Action</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr *ngFor="let cus of customers">
+    <td>{{cus.id}}</td>
+    <td>{{cus.name}}</td>
+    <td>{{cus.birthday}}</td>
+    <td>{{cus.numberCard}}</td>
+    <td>{{cus.phone}}</td>
+    <td>{{cus.email}}</td>
+    <td class="mt-5">
+      <button class="btn btn-primary "  [routerLink]="['/customers/edit']">Edit</button>
+      <button class="btn btn-danger ml-3"  >Delete</button>
+    </td>
+  </tr>
+  </tbody>
+</table>
+

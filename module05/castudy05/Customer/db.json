@@ -1,0 +1,111 @@
+{
+  "customers": [
+    {
+      "id": 1,
+      "name": "nguyễn tất việt",
+      "birthday": "21/01/2000",
+      "numberCard": 209366590,
+      "phone": "0919947255",
+      "email": "nguyentatviettk@gmail.com"
+    },
+    {
+      "id": 2,
+      "name": "nguyễn tất thành",
+      "birthday": "21/01/2000",
+      "numberCard": 209366590,
+      "phone": "0919947255",
+      "email": "nguyentatviettk@gmail.com"
+    },
+    {
+      "id": 3,
+      "name": "nguyễn tất công",
+      "birthday": "21/01/2000",
+      "numberCard": 209366590,
+      "phone": "0919947255",
+      "email": "nguyentatviettk@gmail.com"
+    },
+    {
+      "name": "tất thắng",
+      "birthday": "28/09/2028",
+      "phone": "0980987",
+      "email": "tatthang@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "tất thắng",
+      "birthday": "28/09/2028",
+      "numberCard": "12344321",
+      "phone": "0980987",
+      "email": "tatthang@gmail.com",
+      "id": 5
+    },
+    {
+      "id": 6
+    },
+    {
+      "id": 7
+    },
+    {
+      "id": 8
+    },
+    {
+      "id": 9
+    },
+    {
+      "name": "nguyễn tất việt",
+      "birthday": "2021-08-10",
+      "numberCard": 12345678,
+      "phone": "0919347558",
+      "email": "nguyentatviettk@gmail.com",
+      "id": 10
+    },
+    {
+      "name": "nguyễn tất thắng",
+      "birthday": "2021-08-13",
+      "numberCard": 123456789,
+      "phone": "1234123",
+      "email": "ntviet.18i@cit.udn.vn",
+      "id": 11
+    },
+    {
+      "name": "nguyễn tất thắng",
+      "birthday": "2021-08-13",
+      "numberCard": 123456789,
+      "phone": "1234123",
+      "email": "ntviet.18i@cit.udn.vn",
+      "id": 12
+    },
+    {
+      "name": "nguyentatviettk@gmail.com",
+      "phone": "1234123",
+      "birthday": "2021-08-27",
+      "numberCard": 12345677,
+      "email": "nguyentatviettk@gmail.com",
+      "id": 13
+    },
+    {
+      "name": "nguyentatviettk@gmail.com",
+      "phone": "1234123",
+      "birthday": "2021-08-27",
+      "numberCard": 12345677,
+      "email": "nguyentatviettk@gmail.com",
+      "id": 14
+    },
+    {
+      "name": "nguyentatviettk@gmail.com",
+      "phone": "1234123",
+      "birthday": "2021-08-27",
+      "numberCard": 12345677,
+      "email": "nguyentatviettk@gmail.com",
+      "id": 15
+    },
+    {
+      "name": "nguyentatviettk@gmail.com",
+      "phone": "1234123",
+      "birthday": "2021-08-27",
+      "numberCard": 12345677,
+      "email": "nguyentatviettk@gmail.com",
+      "id": 16
+    }
+  ]
+}
