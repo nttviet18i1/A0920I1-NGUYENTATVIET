@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { CoutdownComponent } from './coutdown/coutdown.component';
+import { RatingBarComponent } from './rating-bar/rating-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CoutdownComponent
+    CoutdownComponent,
+    RatingBarComponent
   ],
   imports: [
     BrowserModule
